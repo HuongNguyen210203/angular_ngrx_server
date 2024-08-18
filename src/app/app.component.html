@@ -1,0 +1,39 @@
+<!--&lt;!&ndash;@for(profile of listProfile; track $index){&ndash;&gt;-->
+<!--&lt;!&ndash;  <p>{{profile.name}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;  <p>{{profile.dob}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;}&ndash;&gt;-->
+
+<!--&lt;!&ndash;@for(data of listProfile2; track $index){&ndash;&gt;-->
+<!--&lt;!&ndash;  <p>{{data.name}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;  <p>{{data.dob}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;}&ndash;&gt;-->
+
+<!--&lt;!&ndash;<p>{{profile.id}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;<p>{{profile.name}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;<p>{{profile.dob}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;<p>{{profile.email}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;<p>{{profile.phone}}</p>&ndash;&gt;-->
+
+<!--@for(profile of profileService.profiles; track $index){-->
+<!--  <mat-card class="example-card" appearance="outlined">-->
+<!--    <mat-card-header>-->
+<!--      <div mat-card-avatar class="example-header-image"></div>-->
+<!--      <mat-card-title>{{profile.name}}</mat-card-title>-->
+<!--      <mat-card-subtitle>{{profile.dob}}</mat-card-subtitle>-->
+<!--    </mat-card-header>-->
+<!--&lt;!&ndash;    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">&ndash;&gt;-->
+<!--    <p>{{profile.id}}</p>-->
+<!--    <mat-card-content>-->
+<!--      <p>-->
+<!--        {{profile.email}}-->
+<!--      </p>-->
+<!--      <p>{{profile.phone}}</p>-->
+<!--    </mat-card-content>-->
+<!--    <mat-card-actions>-->
+<!--      <button mat-button>LIKE</button>-->
+<!--      <button mat-button>SHARE</button>-->
+<!--    </mat-card-actions>-->
+<!--  </mat-card>-->
+<!--}-->
+
+<router-outlet></router-outlet>

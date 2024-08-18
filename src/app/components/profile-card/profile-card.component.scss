@@ -1,0 +1,23 @@
+//.example-card {
+//  width: 350px;
+//}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+#id{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.example-card {
+  width: 400px;
+  transition: transform 0.5s;
+}
+
+.example-card:hover {
+  transform: translateX(20px);
+}
